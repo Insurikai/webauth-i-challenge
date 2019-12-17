@@ -22,5 +22,7 @@ server.post('/register', (req, res) => {
 });
 
 server.get('/users', (req, res) => {
-  
+  //Check Auth
+  //Show
+  userDB.find();
 });

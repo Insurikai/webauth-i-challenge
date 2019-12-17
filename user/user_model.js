@@ -16,7 +16,7 @@ function add(username, password) {
     });
 }
 function find(){
-  db('user')
+  return db('user')
 }
 function findBy(filter) {
   return db('users').where(filter);
