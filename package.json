@@ -1,0 +1,29 @@
+{
+  "name": "webauth-i-challenge",
+  "version": "1.0.0",
+  "description": "N/A",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "express": "^4.17.1",
+    "knex": "^0.20.4",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insurikai/webauth-i-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insurikai/webauth-i-challenge/issues"
+  },
+  "homepage": "https://github.com/Insurikai/webauth-i-challenge#readme"
+}
